@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "A00978_TEST_IntialVnet02"
+  default = "A00978_TEST_IntialVnet01"
 }
 
 variable "location" {
