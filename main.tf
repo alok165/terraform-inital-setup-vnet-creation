@@ -1,13 +1,14 @@
 # Azure Provider source and version being used
 terraform {
+  required_version = ">= 1.5.4"  #This is the Terraform CLI version
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 2.80"
+      version = "~> 3.68.0"  #This is the Azurerm CLI version
     }
   }
 
-  required_version = ">= 0.14.9"
+  
 }
 
 
