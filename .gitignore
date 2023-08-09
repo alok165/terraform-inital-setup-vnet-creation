@@ -1,0 +1,9 @@
+# Logs
+logs
+*.log
+.terraform
+.terraform.lock.hcl
+*.tfstate*
+auth.tfvars.json
+command.txt
+*plan

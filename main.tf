@@ -14,6 +14,7 @@ terraform {
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
   features {}
+  # Please note client_id, secret, secret id and tenaid , subscription are moevd ot terraform workspace variable
 }
 # Create a resource group
 resource "azurerm_resource_group" "rgtest1" {
